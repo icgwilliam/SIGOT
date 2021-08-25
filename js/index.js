@@ -1,4 +1,4 @@
-﻿var web_service = "https://serviciosgeovisor.igac.gov.co:8080/Geovisor/";
+var web_service = "https://serviciosgeovisor.igac.gov.co:8080/Geovisor/";
 var loading;
 
 
@@ -94,7 +94,7 @@ $(function() {
             //});
             $.get( "Paso2.html", function( data ) {
                 $( ".containertarjetas" ).html( data );
-                alert( "Load was performed." );
+                //alert( "Load was performed." );
               });
 
 
@@ -160,7 +160,8 @@ $(function() {
     });
     
     $("body").click(function(e) {
-          if (e.target.class == "parenttarjetas" || $(e.target).parents(".parenttarjetas").size()) 
+          //if (e.target.class == "parenttarjetas" || $(e.target).parents(".parenttarjetas").size()) 
+          if (e.target.class == "parenttarjetas" || $(e.target).parents(".parenttarjetas").length) 
           {
                //This triggers if you click on them
           }
