@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIGOT</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
+    <script>
+      $(function () {
+          if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+              $('.parallax-container').height($(window).height() * 0.5 | 0);
+          } else {
+              $(window).resize(function () {
+                  var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
+                  $('.parallax-container').height(parallaxHeight);
+              }).trigger('resize');
+          }
+      });
+
+      function gotoFAQ() {
+          window.open("docs/FAQOrigenCartografico.pdf", "_blank");
+      }
+
+    </script>
+    <script> 
+      function vermas(id){
+      if(id=="mas"){
+      document.getElementById("desplegar").style.display="block";   
+      document.getElementById("mas").style.display="none"; 
+      }
+      else{
+      document.getElementById("desplegar").style.display="none";
+      document.getElementById("mas").style.display="inline";
+      }
+      }
+      </script>
+      <script> 
+        function vermas_5(id){
+        if(id=="mas_5"){
+        document.getElementById("desplegar_5").style.display="block";   
+        document.getElementById("mas_5").style.display="none"; 
+        }
+        else{
+        document.getElementById("desplegar_5").style.display="none";
+        document.getElementById("mas_5").style.display="inline";
+        }
+        }
+        </script>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="js/jquery.connections.js"></script>
+  </head>
+  <body>
+    <nav class="navbar calcite-navbar navbar-fixed-top calcite-text-light calcite-bg-dark calcite-bgcolor-igac">
+      <div class="calcite-title calcite-overflow-hidden hidden-xs" style="z-index: 100;">
+          <div class="calcite-title-main">
+              <a href="https://www.igac.gov.co" target="_blank">
+                  <img alt="Logo IGAC" src="images/Logo.png" style="height: 35px; padding-left: 20px;">
+              </a>
+          </div>
+      </div>
+      <span class="calcite-title-main calcite-title-main-text" style="z-index: 50;">
+          <img style="height: 15px; margin-top: 16px;" src="/images/colombiaOT.svg" alt="SIGOT">
+      </span>
+      <ul class="calcite-nav nav navbar-nav hidden-xs" style="padding-top: 5px;z-index: 100;">
+          <li>
+              <a href="#" class="button buttonPortal buttonPortalHover">Inicio</a>
+          </li>
+          <li>
+              <a href="#" class="button buttonPortalActive buttonPortal ">DocuVisor</a>
+          </li>
+          <li>
+              <a href="#" class="button buttonPortal buttonPortalHover">Ruta</a>
+          </li>
+          <li>
+              <a href="#" class="button buttonPortal2 buttonPortalHover2" onclick="window.open('https://damappa.typeform.com/to/Z0ghMtkP', '_blank'); return false;">Cuéntenos su opinión</a>
+          </li>
+          <li>
+              <a id="loginBtn" onclick="gotoLogin();" style="padding: 6px; background: transparent; padding-top: 8px;z-index: 100;">
+                  <img id="userPhoto" src="/images/iconos/User.png" onerror="defaultUserPhoto();" alt="Iniciar sesion">
+                  <span id="userName" style="display: none;">Iniciar sesion</span>
+              </a>
+          </li>
+      </ul>
+      <div class="calcite-nav nav navbar-nav">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only" style="background: red;">Toggle navigation</span>
+              <span class="icon-bar" style="background-color: white;"></span>
+              <span class="icon-bar" style="background-color: white;"></span>
+              <span class="icon-bar" style="background-color: white;"></span>
+          </button>
+
+      </div>
+    </nav>
+    <div class="container">
+      <div class="subcontainer" id="subcontainer">
+        <div class="ruta">
+          <img width="100%" src="images/ruta_image.png" alt="">
+
+          <div class="mensaje">
+            
+            <h1>¡HOLA!</h1>
+            <h2>Estos son los pasos de la ruta del POT</h2>
+            <p>Una guía para tomar la dirección adecuada. Lorem
+              ipsum dolor sit amet, consectetuer adipiscing elit, sed
+              diam nonummy nibh euismod tincidunt ut laoreet
+              dolore magna aliquam erat volutpat. Ut wisi enim ad
+              minim veniam, quis nostrud exerci tation.</p>
+  
+          </div>
+  
+          <div class="linea"></div>
+  
+  
+  
+          <div class="paso0" id="paso0">
+            <!--<h1>0</h1>-->
+            <div class="circle0" id="circle0">0</div>
+            <h3>Navegue la Ruta</h3>
+            <div class="div-img-paso0">
+              <img class="img-paso0" id="img-paso0" onclick="myFunction()" src="images\paso0_image.png" alt="No disponible" >
+            </div>
+            
+          </div>
+  
+          <div class="paso" id="paso_1" >
+            <!--<h1>1</h1>-->
+            <div class="circle" id="circle_1">1</div>
+            <h3>Contexto</h3>
+            <img class="img-paso" src="images\paso1_image.png" alt="No disponible">
+          </div>
+  
+          <div class="paso" id="paso_2">       
+            <div class="circle" id="circle_2">2</div>
+            <h3>Decisión de revisar el POT</h3>
+            <img class="img-paso" src="images\paso1_image.png" alt="No disponible">
+          </div>
+  
+          <div class="paso" id="paso_3">        
+            <div class="circle" id="circle_3">3</div>
+            <h3>Alistamiento</h3>
+            <img class="img-paso" src="images\paso3_image.png" alt="No disponible">
+          </div>
+  
+          <div class="paso" id="paso_4">        
+            <div class="circle" id="circle_4">4</div>
+            <h3>Seguimiento*</h3>
+            <img class="img-paso" src="images\paso4_image.png" alt="No disponible">
+          </div>
+  
+          <div class="paso" id="paso_5">        
+            <div class="circle" id="circle_5">5</div>
+            <h3>Diagnóstico*</h3>
+            <img class="img-paso" src="images\paso5_image.png" alt="No disponible">
+          </div>
+  
+          <div class="paso" id="paso_6">        
+            <div class="circle" id="circle_6">6</div>
+            <h3>Formulación*</h3>
+            <img class="img-paso" src="images\paso6_image.png" alt="No disponible">
+          </div>
+  
+          <div class="paso" id="paso_7">        
+            <div class="circle" id="circle_7">7</div>
+            <h3>Concertación, consulta y aprobación</h3>
+            <img class="img-paso" src="images\paso1_image.png" alt="No disponible">
+          </div>
+  
+          <div class="paso" id="paso_8">        
+            <div class="circle" id="circle_8">8</div>
+            <h3>Implementación del POT*</h3>
+            <img class="img-paso" src="images\paso7_image.png" alt="No disponible">
+          </div>
+  
+          <div class="paso" id="paso_9">
+            <div class="circle" id="circle_9">9</div>
+            <h3>Seguimiento del POT*</h3>
+            <img class="img-paso" src="images\paso8_image.png" alt="No disponible">
+          </div>
+  
+          <p class="encuenta">*Tenga en cuenta que los pasos marcados con un asterisco son capas normativas del POT.</p>
+        
+          <div class="cooperantes">
+            <h1>COOPERANTES</h1>
+            <div class="lineacooperantes"></div>
+            <img src="images/Municipios_paz.png" alt="" width="145px" height="66.576px">
+            <img src="images/Fede_municipios.png" alt="" width="145px" height="66.576px">
+            <img src="images/Hoja_ruta.png" alt="" width="145px" height="66.576px">
+            <img src="images/Union_europea.png" alt="" width="145px" height="66.576px">
+            <img src="images/igac.png" alt="" width="145px" height="66.576px">
+          </div>
+  
+          <div class="creditos">
+            <h1>CRÉDITOS</h1>
+            <div class="lineacooperantes"></div>
+            <h2>Director ejecutivo de la federación</h2>
+            <h3>Gilberto Toro Giraldo</h3>
+  
+            <h2>Directora de Gestión Técnica</h2>
+            <h3>Sandra Milena Castro Torres</h3>
+  
+            <h2>Documento elaborado por el equipo técnico del
+              Resultado 3 del proyecto</h2>
+            <h3>Municipios Visibles para la Paz</h3>
+  
+            <h2>Líder del resultado</h2>
+            <h3>Luis Felipe Márquez Duque</h3>
+  
+            <h2>Profesional urbanista</h2>
+            <h3>Jorge Enrique Angel Villada</h3>
+  
+            <h2>Profesional ambiental</h2>
+            <h3>Victoria Eugenia Puerta González</h3>
+  
+            <h2>Profesional en gestión de riesgos</h2>
+            <h3>Liliana Elizabeth Caicedo Mora</h3>
+  
+            <h2>Profesional en Sistemas de información</h2>
+            <h3>Leidy Maritza Bernal Vargas</h3>
+  
+            <h2>Profesional en economía urbana</h2>
+            <h3>Mauricio Cortes Garzón</h3>
+  
+            <h2>Profesional en derecho urbano</h2>
+            <h3>Milena Inés Guevara Triana</h3>
+  
+            <h2 class="tegusto">¿Te gustó la plataforma? <a href="#">Déjanos tu opinión.</a></h2>
+  
+  
+  
+          </div>
+        </div>
+        
+        <div class="containertarjetas" id="containertarjetas">
+          <div class="siguiente">
+            <a class="boton_next" href="#">SIGUIENTE PASO</a>
+            <img width="15px" height="15px" src="images/image_next.png" alt="">
+          </div>
+          <div class="tarjetas">
+            <div class="informacion-paso">
+              <h2>Paso I</h2>
+              <h1 class="contextoh1">Contexto</h1>
+              <h3 class="h3definicion">DEFINICIÓN</h3>
+              <div class="lineapaso"></div>
+              <p>Como primer paso en el proceso de ordenamiento territorial municipal es importante que los administradores
+                locales en cabeza del alcalde y la secretaria de planeaci n municipal conozcan el contexto y estado de su plan de
+                ordenamiento territorial, así como sean identificados los principales conflictos y oportunidades, teniendo como
+                conclusión general la pertinencia de realizar procesos de revisión y ajuste de su instrumento.</p>
+              <ul>
+                <li>Paso normativo del POT: <span>No</span></li>
+                <li>Actividades: <u>6</u></li>
+                <li>Recursos relacionados: <u>4</u></li>
+              </ul>  
+    
+              <h4 class="convencionestitulo">Convenciones:</h4>
+              <div class="convenciones">
+                <img src="images/tecnico_image.png" alt="">
+                <p>Componente técnico</p>
+                <img src="images/administrativo_image.png" alt="">
+                <p>Componente administrativo de participación y concertación</p>
+              </div>
+              <h3>ACTIVIDADES (6)</h3>
+              <div class="lineapaso"></div>
+            </div>
+    
+            <div class="container2">
+              <div class="parenttarjetas">
+    
+                <div class="tarjeta">
+                  <div class="tooltip">
+                    <img src="images/tecnico_image.png" class="imgtecnico" alt=""><span class="tooltiptext">Componente técnico</span>
+                  </div>
+                  <h4 class="h4tecnico">Técnico</h4>
+                  <a name="#paso_1"></a>
+                  <h1>1 – Vencimiento de vigencia del POT</h1>
+                  <div class="lineatarjeta"></div>
+                  <h2>Introducción explicativa:</h2>
+                  <p>En este paso es importante que el municipio
+                    como primera medida analice la vigencia de su
+                    plan de ordenamiento territorial a través de
+                    preguntas como:</p>
+                    <a href="#paso_1" onclick="vermas('mas');" id="mas"> Leer más</a>
+                  
+
+                  <p id="desplegar" style="display:none;">
+                                        
+                    &bull; La identificación de cuál es su tipo de POT1.<br>
+                    &bull; El año en el que se formuló por primera vez y a vigencia de este.<br>
+                    &bull; Conocer si se han realizado procesos de revisión y ajuste.<br><br>
+                                       
+                  <a href="#paso_1" onclick="vermas('menos');" id="menos"> Leer menos</a>
+
+                  </p>
+                  
+                  
+                  <!--<a href="#">Leer menos</a>-->
+                  <h2>Normatividad relacionada:</h2>
+                  <ul>
+                    <li><a href="#">Ley 388 de 1997</a></li>
+                    <li><a href="#">Decreto 1077 de 2015</a></li>
+                    <li><a href="#">Ley 1537 de 2012</a></li>
+                  </ul>
+    
+                </div>
+    
+                <div class="tarjeta">
+                  <div class="tooltip">
+                    <img src="images/tecnico_image.png" class="imgtecnico" alt=""><span class="tooltiptext">Componente técnico</span>
+                  </div>
+                  
+                  <h4 class="h4tecnico">Técnico</h4>
+                  
+                  <h1>2 – POT actual tiene falencias</h1>
+                  <div class="lineatarjeta"></div>
+                  <h2>Introducción explicativa:</h2>
+                  <p>Es necesario identificar si el POT vigente tiene
+                    falencias con respecto a las dinámicas de ocupación
+                    y a los contenidos derivados de cambios
+                    normativos o nuevos desarrollos en materia de
+                    ordenamiento territorial.</p>
+                    
+                  <h2>Normatividad relacionada:</h2>
+                  <ul>
+                    <li><a href="#">Ley 388 de 1997</a></li>
+                    <li><a href="#">Decreto 1077 de 2015</a></li>
+                    <li><a href="#">Ley 1537 de 2012</a></li>
+                  </ul>
+                </div>
+    
+                <div class="tarjeta">
+                  <div class="tooltip">
+                    <img src="images/tecnico_image.png" class="imgtecnico" alt=""><span class="tooltiptext">Componente técnico</span>
+                  </div>
+                  <h4 class="h4tecnico">Técnico</h4>
+                  
+                  <h1>3 – Se han dado cambios estructurales en el municipio</h1>
+                  <div class="lineatarjeta"></div>
+                  <h2>Introducción explicativa:</h2>
+                  <p>Como parte fundamental para analizar el contexto
+                    se propone también la identificación de
+                    cambios estructurales en el municipio, como por
+                    ejemplo los desarrollos urbanísticos.</p>
+    
+                </div>
+    
+                <div class="tarjeta">
+                  <div class="tooltip">
+                    <img src="images/tecnico_image.png" class="imgtecnico" alt=""><span class="tooltiptext">Componente técnico</span>
+                  </div>
+                  <h4 class="h4tecnico">Técnico</h4>
+                  
+                  <h1>4 – Infraestructuras nacionales que impacten el ordenamiento</h1>
+                  <div class="lineatarjeta"></div>
+                  <h2>Introducción explicativa:</h2>
+                  <p>Para analizar el contexto también se recomienda
+                    la identificación de proyectos de infraestructura
+                    nacionales o regionales que impactan el desarrollo
+                    territorial y se haga necesaria la modificación
+                    del POT.</p>
+                </div>
+    
+                <div class="tarjeta">
+                  
+                  <div class="tooltip">
+                    <img src="images/tecnico_image.png" class="imgtecnico" alt=""><span class="tooltiptext">Componente técnico</span>
+                  </div>
+                  <div class="tooltip">
+                    <img src="images/administrativo_image.png" class="imgadmin" alt=""><span class="tooltiptextadmin">Componente administrativo de participación y concertación</span>  
+                  </div>
+                  <h4 class="h4tecnico">Técnico</h4>
+                  <span class="lineavertical">|</span> 
+                  <h4 class="h4admin">Administrativo...</h4>
+                  <a name="#paso_5"></a>
+                  <h1>5 – Por excepcional interés público</h1>
+                  <div class="lineatarjeta"></div>
+                  <h2>Introducción explicativa:</h2>
+                  <p>Identificar si existen razones de excepcional
+                    interés público, o de fuerza mayor o caso fortuito,
+                    que permitan que el alcalde inicie en cualquier
+                    momento el proceso de revisión del Plan o
+                    de alguno de sus contenidos.</p>
+                  
+                    <a href="#paso_5" onclick="vermas_5('mas_5');" id="mas_5"> Leer más</a>
+
+                  <p id="desplegar_5" style="display:none;">
+                    La modificación excepcional de la norma
+                      urbanística es un tipo de proceso de revisión del
+                      Plan de Ordenamiento Territorial ( POT). Son
+                      circunstancias de excepcional interés público, o
+                      de fuerza mayor o caso fortuito, que justifiquen
+                      la revisión del Plan de Ordenamiento las siguientes: <br><br>
+                      
+                    A) La declaratoria de desastre o calamidad
+                      pública de que tratan los artículos 18 y 48 del
+                      Decreto Ley 919 de 1989, por la ocurrencia
+                      súbita de desastres de origen natural o antrópico;<br><br>
+ 
+                    B) Los resultados de estudios técnicos detallados
+                      sobre amenazas, riesgos y vulnerabilidad que
+                      justifiquen la recalificación de áreas de riesgo no
+                      mitigable y otras condiciones de restricción
+                      diferentes de las originalmente adoptadas en el
+                      Plan de Ordenamiento Territorial vigente. <br><br>
+
+                    <a href="#paso_5" onclick="vermas_5('menos');" id="menos"> Leer menos</a>
+                  </p>
+
+                    
+                  <h2>Normatividad relacionada:</h2>
+                  <ul>
+                    <li><a href="#">Decreto 1077 de 2015</a></li>
+                  </ul>
+                  <div class="tarjetacoloradmin"></div>
+                </div>
+                
+                <div class="tarjeta" id="tarjeta_6">
+                  <div class="tooltip">
+                    <img src="images/tecnico_image.png" class="imgtecnico" alt=""><span class="tooltiptext">Componente técnico</span>
+                  </div>
+                  <div class="tooltip">
+                    <img src="images/administrativo_image.png" class="imgadmin" alt=""><span class="tooltiptextadmin">Componente administrativo de participación y concertación</span>  
+                  </div>
+                  
+                  <h4 class="h4tecnico">Técnico</h4>
+                  <span class="lineavertical">|</span> 
+                  <h4 class="h4admin">Administrativo...</h4>
+                  
+                  <h1>6 – Nuevas normas en el ordenamiento territorial</h1> 
+                  <div class="lineatarjeta" ></div>           
+                  <h2>Normatividad relacionada:</h2>
+                  <ul>
+                    <li><a href="#">Ley 388 de 1997</a></li>
+                    <li><a href="#">Decreto 1077 de 2015</a></li>
+                    <li><a href="#">Ley 1537 de 2012</a></li>
+                  </ul>
+                  <h2>Notas relacionadas:</h2>
+                  <div class="circlenotarel"><p class="circlenotarelp">1</p> </div>
+                  <h3 class="titulonotarel" id="notarel_1">Desconocimiento del POT su importancia y obligatoriedad</h3>
+                  <div class="tarjetacoloradmin"></div>
+
+                </div>
+              </div>
+            </div>
+    
+              <div class="recursos">
+                <h3>RECURSOS RELACIONADOS(4)</h3>
+              <div class="linearecursorelacionado"></div>
+              <div>
+                <div class="recurso">
+                  <img src="images/image_clip_2.png" alt="">
+                  <h1 class="titulorecurso">KIT OT (Alistamiento)</h1>
+                  <h3 class="identificador">No. 4</h3>
+                  <h2 class="entidad">Departamento Nacional de Planeación - DNP</h2>
+                  <h3 class="anio">2017</h3>
+                </div>
+                <div class="recurso">
+                  <img src="images/image_cadena.png" alt="">
+                  <h1 class="titulorecurso">Elementos para la incorporación de la Biodiversidad en los Planes y Esquemas de Ordenamiento Territorial</h1>
+                  <h3 class="identificador">No. 26</h3>
+                  <h2 class="entidad">Instituto de investigación de recursos biológicos Alexander Von Humboldt</h2>
+                  <h3 class="anio">2006</h3>
+                </div>   
+                <div class="recurso">
+                  <img src="images/image_cadena.png" alt="">
+                  <h1 class="titulorecurso">Guía metodológica 2. Revisión y Ajuste de Planes de Ordenamiento Territorial</h1>
+                  <h3 class="identificador">No. 33</h3>
+                  <h2 class="entidad">Ministerio de Vivienda, Ciudad y Territorio - Serie Planes de Ordenamiento Territorial</h2>
+                  <h3 class="anio">2006</h3>
+                </div>   
+                <div class="recurso">
+                  <img src="images/image_cadena.png" alt="">
+                  <h1 class="titulorecurso">Guia metodologica. Conromación y puesta en marcha del expediente municipal</h1>
+                  <h3 class="identificador">No. 34</h3>
+                  <h2 class="entidad">Ministerio de Vivienda, Ciudad y Territorio - Serie Espacio Urbano y Territorial</h2>
+                  <h3 class="anio">2019</h3>
+                </div> 
+              </div>  
+    
+            </div>
+    
+                        
+          </div>
+
+        </div>
+      </div>
+      <div class="notas" id="notas">
+        <div class="notas_img_encabezado">
+          <img src="images/Encabezado_notas.png" alt="Imagen disponible">
+        </div>
+        
+        <div class="notastexto">
+          <img src="images/nota_image.png" alt="">
+          <h1 class="titulonotas">NOTAS(2)</h1>
+          <div class="lineanotas"></div>
+          <p class="notasp">En esta columna están centralizadas
+            todas las notas. Lorem ipsum dolor
+            sit amet.</p>
+            
+        </div>
+
+
+
+          <div class="nota" id="nota_0">
+            <div class="circlenota"><p class="circlenotap">0</p></div>
+            
+            <h1 class="titulo">Nota instructiva</h1>
+            <h2 class="subtitulo">Revisa el documento ténico de soporte oficial de la Ruta POT desarrollado por la Federación Colombiana de Municipios</h2>
+            <p class="notap">Éste se realizó con la cooperación de Municipios Visibles para la Paz y La Unión Europea en el marco de la Hoja de Ruta: Compromiso de la
+              Unión Europea con la sociedad Civil. Es el documento base para la realización de esta plataforma interactiva que busca acompañar a los Municipios
+              en su proceso de Revisión y ejecución del POT municipal.</p>
+          </div>
+
+          <div class="nota" id="nota_1">
+            <div class="circlenota"><p class="circlenotap">1</p></div>
+            <h1 class="titulo">Nota de alerta</h1>
+            <h2 class="subtitulo">Desconocimiento del POT su importancia y obligatoriedad</h2>
+            <p class="notap">Se genera la alerta para la administración municipal de conocer el estado de su POT y las leyes
+              que demarcan la obligatoriedad de formular y revisar el mismo, así como las implicaciones
+              administrativas que conlleva la toma de decisiones y el planeamiento de proyectos sin estar
+              incluidas en el instrumento y por lo tanto estar reglamentado en las disposiciones normativas de
+              uso.</p>
+          </div>
+        
+      </div>
+    </div>
+  
+  </body>
+</html>
