@@ -3,32 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SIGOT</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="title" property="og:title" content="">
+    <meta property="og:type" content="website">
+    <meta name="image" property="og:image" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="Instituto Geográfico Agustín Codazzi - IGAC" />
+    <meta http-equiv="content-language" content="es" />
+    <link rel="canonical" href="" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <title>Colombia OT</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="/js/lib/dist/css/calcite-maps-bootstrap.min-v0.10.css">
+    <link rel="stylesheet" href="/js/lib/dist/css/calcite-maps-arcgis-3.x.min-v0.10.css">
+
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="/css/sigot.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
-    <script>
-      $(function () {
-          if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-              $('.parallax-container').height($(window).height() * 0.5 | 0);
-          } else {
-              $(window).resize(function () {
-                  var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
-                  $('.parallax-container').height(parallaxHeight);
-              }).trigger('resize');
-          }
-      });
 
-      function gotoFAQ() {
-          window.open("docs/FAQOrigenCartografico.pdf", "_blank");
-      }
-
-    </script>
     <script> 
       function vermas(id){
       if(id=="mas"){
@@ -53,7 +50,7 @@
         }
         }
         </script>
-      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="js/jquery.connections.js"></script>
   </head>
   <body>
@@ -83,7 +80,7 @@
           </li>
           <li>
               <a id="loginBtn" onclick="gotoLogin();" style="padding: 6px; background: transparent; padding-top: 8px;z-index: 100;">
-                  <img id="userPhoto" src="/images/iconos/User.png" onerror="defaultUserPhoto();" alt="Iniciar sesion">
+                  <img id="userPhoto" src="/images/User.png" onerror="defaultUserPhoto();" alt="Iniciar sesion">
                   <span id="userName" style="display: none;">Iniciar sesion</span>
               </a>
           </li>

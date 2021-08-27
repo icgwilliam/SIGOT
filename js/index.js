@@ -1,4 +1,4 @@
-var web_service = "https://serviciosgeovisor.igac.gov.co:8080/Geovisor/";
+﻿var web_service = "https://serviciosgeovisor.igac.gov.co:8080/Geovisor/";
 var loading;
 
 
@@ -92,10 +92,11 @@ $(function() {
             //function (returnedHtml) {
             //    $("#containertarjetas").html(returnedHtml);
             //});
-            $.get( "Paso2.html", function( data ) {
-                $( ".containertarjetas" ).html( data );
+            //$.get( "Paso8.html", function( data ) {
+            //    $( ".containertarjetas" ).html( data );
                 //alert( "Load was performed." );
-              });
+            //  });
+            
 
 
             
@@ -116,14 +117,130 @@ $(function() {
 
 });
 
+/* Funcion para actulizar el contenido*/
+
+$(function(){
+    $('body').on('click', '.paso', function() {
+        var idpaso = $(this).attr('id');
+        console.log('logro obtener el id para cargar el contenido ' + idpaso);
+        if(idpaso == 'paso_1')
+        {
+            $.get( "Paso1.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+                //alert( "Load was performed." );
+              });
+              $.get("Notas1.html", function(data){
+                $(".notas").html(data);
+            });
+    
+
+        }
+        else if (idpaso == 'paso_2')
+        {
+            $.get( "Paso2.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+                //alert( "Load was performed." );
+              });
+              $.get("Notas2.html", function(data){
+                $(".notas").html(data);
+            });
+
+        }
+        else if (idpaso == 'paso_3')
+        {
+            $.get( "Paso3.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+                //alert( "Load was performed." );
+              });
+              $.get("Notas3.html", function(data){
+                $(".notas").html(data);
+            });
+
+        }
+        else if (idpaso == 'paso_4')
+        {
+            $.get( "Paso4.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+                //alert( "Load was performed." );
+              });
+              $.get("Notas4.html", function(data){
+                $(".notas").html(data);
+            });
+
+        }
+        else if (idpaso == 'paso_5')
+        {
+            $.get( "Paso5.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+                //alert( "Load was performed." );
+              });
+              $.get("Notas5.html", function(data){
+                $(".notas").html(data);
+            });
+
+        }
+        else if (idpaso == 'paso_6')
+        {
+            $.get( "Paso6.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+                //alert( "Load was performed." );
+              });
+              $.get("Notas6.html", function(data){
+                $(".notas").html(data);
+            });
+
+        }
+        else if (idpaso == 'paso_7')
+        {
+            $.get( "Paso7.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+                //alert( "Load was performed." );
+              });
+              $.get("Notas7.html", function(data){
+                $(".notas").html(data);
+            });
+
+        }
+        else if (idpaso == 'paso_8')
+        {
+            $.get( "Paso8.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+                //alert( "Load was performed." );
+              });
+              $.get("Notas8.html", function(data){
+                $(".notas").html(data);
+            });
+
+        }
+        else if (idpaso == 'paso_9')
+        {
+            $.get( "Paso9.html", function( data ) {
+                $( ".containertarjetas" ).html( data );
+
+                //alert( "Load was performed." );
+              });
+            $.get("Notas9.html", function(data){
+                $(".notas").html(data);
+            });
+
+        }
+        else
+        {
+            console.log("---")
+
+        }
+        
+      });
+
+});
+
 
 /* fin de la funcion que cambia el color en el primer clic*/
 
 
 $(function(){
 
-}
-)
+});
 
 
 $(function() {
