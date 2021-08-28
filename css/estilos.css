@@ -119,6 +119,24 @@ header{
   margin-top: 60px;
 }
 
+.subcontainerpaso0{
+  height: fit-content;
+  width: 100%;
+  box-shadow: 3px 3px 5px #666;
+  background-color: #D7E0E5;
+  display: flex;
+  z-index: 50;
+  margin-top: 60px;
+}
+
+.image-home{
+  width: 80%;
+  height: 722.786px;
+  margin-left: 82px;
+  margin-top: 35px;
+}
+
+
 .ruta{
   /*position: fixed;*/
   position: sticky;
@@ -134,15 +152,17 @@ header{
 
 .containertarjetas{
   width: 68%;
-  height: fit-content;
-  box-shadow: 3px 3px 5px #666;
+  /*height: 100%;*/
+  box-shadow: 3px 0px 5px #666;
 }
 
 .notas{
   /*background-color: #F2F2F2;*/
-  height: 100%;
-  width: 25%;
+  height: 0%;
+  width: 0%;
 }
+
+
 
 .titulonotarel{
   color: #3168E4;

@@ -76,7 +76,11 @@ $(function() {
         var clasecirculo = $(this).find('div').first();
         var clasename = clasecirculo.attr('class');
         var clasepaso = $(this).attr('class');
-        var numeropasos = $('.paso').length               
+        var numeropasos = $('.paso').length
+        //var notasdiv = $('.notas')            
+        //notasdiv.css({"width": "25%"});
+        document.getElementById("notas").style.height = "100%";
+        document.getElementById("notas").style.width = "25%";
         if (clasepaso == 'paso')
         {
             console.log('esta es la clase del paso: ' + clasepaso);
@@ -85,6 +89,8 @@ $(function() {
             $(clasecirculo).addClass('circleclic');
             $(this).addClass('pasoclic');
             console.log("Encontre que tiene clase paso y voy a ponerlo azul")
+            console.log("Esta es la clase de las notas" + notas)
+            
             //document.getElementById("containertarjetas").innerHTML = "Paso2.html";
             //$("#containertarjetas").load("Paso2.html");
             //$("#notas").load("Notas2.html");
