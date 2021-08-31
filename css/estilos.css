@@ -276,6 +276,10 @@ a.ancla:visited:active{
 
 }
 
+.si{
+  color: #21C08D;
+}
+
 .circlenotarel {
   border-radius: 50%;
   width: 15px;
@@ -469,7 +473,11 @@ a.ancla:visited:active{
   color: #000000;
 }
 
-.informacion-paso ul span{
+/*.informacion-paso ul span{
+  color: lightgray;
+}*/
+
+.no{
   color: lightgray;
 }
 
