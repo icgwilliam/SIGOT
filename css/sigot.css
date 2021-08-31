@@ -599,11 +599,19 @@ select {
     background: transparent !important;
 }
 
+.buttonPortalHover {
+    background-image: none !important;
+    background: transparent !important;
+}
+
 .buttonPortalHover:hover {
     text-decoration: none;
     border-bottom: 4px solid #F4A833;
-    background-image: none !important;
-    background: transparent !important;
+}
+
+.buttonPortalHover:focus {
+    text-decoration: none;
+    border-bottom: 4px solid #F4A833;
 }
 
 .buttonPortal2 {
@@ -1990,3 +1998,53 @@ body.dragging, body.dragging * {
 .home-icons:hover {
     background-color: #FFF8E8;
 }
+
+#footer {
+    background-image: url('/images/SIGOT/Footer1.png');
+    background-color: #3C3C3B;
+    color: white;
+    padding-right: 60px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: right;
+    height: 500px;
+    margin-top: 70px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+}
+
+    #footer a {
+        color: #606060;
+        text-decoration:underline;
+    }
+
+        #footer a:hover {
+            color: #606060;
+            text-decoration: underline;
+        }
+
+
+.media-resultados-home {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    padding: 20px;
+}
+
+    .media-resultados-home:hover {
+        background-color: white;
+        border-left: 5px solid rgb(100, 69, 225);
+    }
+
+
+#tableRecursos_paginate {
+    text-align: center;
+}
+
+    #tableRecursos_paginate a {
+        color: gray;
+        background-color: transparent !important;
+    }

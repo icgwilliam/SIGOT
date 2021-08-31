@@ -58,29 +58,60 @@
       <div class="calcite-title calcite-overflow-hidden hidden-xs" style="z-index: 100;">
           <div class="calcite-title-main">
               <a href="https://www.igac.gov.co" target="_blank">
-                  <img alt="Logo IGAC" src="images/Logo.png" style="height: 35px; padding-left: 20px;">
+                  <img alt="Logo IGAC" src="/images/Logo.png" style="height: 35px; padding-left: 20px;" />
               </a>
           </div>
       </div>
       <span class="calcite-title-main calcite-title-main-text" style="z-index: 50;">
-          <img style="height: 15px; margin-top: 16px;" src="images/colombiaOT.svg" alt="SIGOT">
+          <img style="height: 15px; margin-top: 16px;" src="/images/colombiaOT.svg" alt="SIGOT" />
       </span>
       <ul class="calcite-nav nav navbar-nav hidden-xs" style="padding-top: 5px;z-index: 100;">
           <li>
-              <a href="#" class="button buttonPortal buttonPortalHover">Inicio</a>
+              <a href="/sigot" class="button buttonPortalActive buttonPortal buttonPortalHover">Inicio</a>
           </li>
           <li>
-              <a href="#" class="button buttonPortalActive buttonPortal ">DocuVisor</a>
+              <a href="https://sigot.igac.gov.co" class="button buttonPortal buttonPortalHover">El SIG-OT</a>
           </li>
           <li>
-              <a href="#" class="button buttonPortal buttonPortalHover">Ruta</a>
+              <a class="dropdown-toggle button buttonPortal buttonPortalHover" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Herramientas <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li>
+                      <a href="/sigot/docuvisor/" class="button buttonPortal">Consulta los POT municipales</a>
+                  </li>
+                  <li>
+                      <a href="/sigot/ruta/" class="button buttonPortal">La Ruta del POT</a>
+                  </li>
+                  <li>
+                      <a href="https://www.colombiaenmapas.gov.co" class="button buttonPortal">OT en Colombia en Mapas</a>
+                  </li>
+              </ul>
           </li>
           <li>
-              <a href="#" class="button buttonPortal2 buttonPortalHover2" onclick="window.open('https://damappa.typeform.com/to/Z0ghMtkP', '_blank'); return false;">Cuéntenos su opinión</a>
+              <a class="dropdown-toggle button buttonPortal buttonPortalHover" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Recursos <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li>
+                      <a href="https://sigot.igac.gov.co/es/content/normatividad-ot" class="button buttonPortal">Normatividad</a>
+                  </li>
+                  <li>
+                      <a href="https://sigot.igac.gov.co/es/articulos/nacional-ambiental-y-biof%C3%ADsico" class="button buttonPortal">Mapas tem&aacute;ticos</a>
+                  </li>
+                  <li>
+                      <a href="https://sigot.igac.gov.co/es/content/geoservicios-sig-ot" class="button buttonPortal">Geoservicios</a>
+                  </li>
+                  <li>
+                      <a href="https://sigot.igac.gov.co/es/articulos/catalogos_2018" class="button buttonPortal">Cat&aacute;logos departamentales</a>
+                  </li>
+                  <li>
+                      <a href="https://www.colombiaenmapas.gov.co/?e=-77.54343860352,-0.014003855055105268,-65.4914366503982,10.041613695154362,4686&b=igac&u=0&t=29&servicio=200" class="button buttonPortal">L&iacute;mites municipales</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <a href="https://damappa.typeform.com/to/T0a5wuIR" target="_blank" class="button buttonPortal2 buttonPortalHover2">Cuéntenos su opinión</a>
           </li>
           <li>
               <a id="loginBtn" onclick="gotoLogin();" style="padding: 6px; background: transparent; padding-top: 8px;z-index: 100;">
-                  <img id="userPhoto" src="images/User.png" onerror="defaultUserPhoto();" alt="Iniciar sesion">
+                  <img id="userPhoto" src="images/icono_ingreso.png" onerror="defaultUserPhoto();" alt="Iniciar sesion" />
                   <span id="userName" style="display: none;">Iniciar sesion</span>
               </a>
           </li>
@@ -94,13 +125,14 @@
           </button>
 
       </div>
-    </nav>
+  </nav>
     <div class="container">
       <div class="subcontainerpaso0" id="subcontainer">
         <div class="ruta">
           <img width="100%" src="images/ruta_image.png" alt="">
 
           <div class="mensaje">
+            <a name="#inicio"></a>
             
             <h1>¡HOLA!</h1>
             <h2>Estos son los pasos de la ruta del POT</h2>
@@ -113,6 +145,7 @@
           </div>
   
           <div class="linea"></div>
+          
   
   
           <a href="javascript:window.location.reload(true)">
@@ -126,60 +159,78 @@
             
           </div>
         </a>
-  
+          
           <div class="paso" id="paso_1" >
+            
             <!--<h1>1</h1>-->
             <div class="circle" id="circle_1">1</div>
             <h3>Contexto</h3>
             <img class="img-paso" src="images\paso1_image.png" alt="No disponible">
+            
           </div>
   
-          <div class="paso" id="paso_2">       
+          <div class="paso" id="paso_2">
+            
             <div class="circle" id="circle_2">2</div>
             <h3>Decisión de revisar el POT</h3>
             <img class="img-paso" src="images\paso1_image.png" alt="No disponible">
+          
           </div>
   
-          <div class="paso" id="paso_3">        
+          <div class="paso" id="paso_3">    
+            
             <div class="circle" id="circle_3">3</div>
             <h3>Alistamiento</h3>
             <img class="img-paso" src="images\paso3_image.png" alt="No disponible">
+          
           </div>
   
-          <div class="paso" id="paso_4">        
+          <div class="paso" id="paso_4">     
+            
             <div class="circle" id="circle_4">4</div>
             <h3>Seguimiento*</h3>
             <img class="img-paso" src="images\paso4_image.png" alt="No disponible">
+          
           </div>
   
-          <div class="paso" id="paso_5">        
+          <div class="paso" id="paso_5">      
+            
             <div class="circle" id="circle_5">5</div>
             <h3>Diagnóstico*</h3>
             <img class="img-paso" src="images\paso5_image.png" alt="No disponible">
+          
           </div>
   
           <div class="paso" id="paso_6">        
+            
             <div class="circle" id="circle_6">6</div>
             <h3>Formulación*</h3>
             <img class="img-paso" src="images\paso6_image.png" alt="No disponible">
+          
           </div>
   
           <div class="paso" id="paso_7">        
+            
             <div class="circle" id="circle_7">7</div>
             <h3>Concertación, consulta y aprobación</h3>
             <img class="img-paso" src="images\paso1_image.png" alt="No disponible">
+          
           </div>
   
           <div class="paso" id="paso_8">        
+            
             <div class="circle" id="circle_8">8</div>
             <h3>Implementación del POT*</h3>
             <img class="img-paso" src="images\paso7_image.png" alt="No disponible">
+          
           </div>
   
           <div class="paso" id="paso_9">
+            
             <div class="circle" id="circle_9">9</div>
             <h3>Seguimiento del POT*</h3>
             <img class="img-paso" src="images\paso8_image.png" alt="No disponible">
+            
           </div>
   
           <p class="encuenta">*Tenga en cuenta que los pasos marcados con un asterisco son capas normativas del POT.</p>
@@ -228,7 +279,7 @@
             <h2>Profesional en derecho urbano</h2>
             <h3>Milena Inés Guevara Triana</h3>
   
-            <h2 class="tegusto">¿Te gustó la plataforma? <a href="#">Déjanos tu opinión.</a></h2>
+            <h2 class="tegusto">¿Te gustó la plataforma? <a href="https://damappa.typeform.com/to/T0a5wuIR?typeform-source=igac.azurewebsites.net" target="blank">Déjanos tu opinión.</a></h2>
   
   
   
@@ -236,7 +287,26 @@
         </div>
         
         <div class="containertarjetas" id="containertarjetas">
-          <img class="image-home" src="images/image_home.png" alt="">
+          <div class="Que-es" id="Que-es-id">
+            <span class="Que-es-texto">¿Qué es la Ruta del POT?</span>
+          </div>
+          <img class="image-home" src="images/image_home.png" alt="" usemap="#mapa">
+          <map name="mapa">
+            <area id="mapa-paso-1" class="mapa-paso" shape="circle" coords="377, 200, 40" href="#" alt="">
+            <area id="mapa-paso-2" class="mapa-paso" shape="circle" coords="603, 200, 40" href="#" alt="">
+            <area id="mapa-paso-3" class="mapa-paso" shape="circle" coords="802, 140, 40" href="#" alt="">
+            <area id="mapa-paso-4" class="mapa-paso" shape="circle" coords="737, 309, 40" href="#" alt="">
+            <area id="mapa-paso-5" class="mapa-paso" shape="circle" coords="416, 442, 40" href="#" alt="">
+            <area id="mapa-paso-6" class="mapa-paso" shape="circle" coords="163, 442, 40" href="#" alt="">
+            <area id="mapa-paso-7" class="mapa-paso" shape="circle" coords="278, 565, 40" href="#" alt="">
+            <area id="mapa-paso-8" class="mapa-paso" shape="circle" coords="507, 610, 40" href="#" alt="">
+            <area id="mapa-paso-9" class="mapa-paso" shape="circle" coords="745, 545, 40" href="#" alt="">
+
+          </map>
+          
+          <a href="docs/Ruta POT_FCM.pdf" target="blank">
+          <button class="desc-pdf-fcm">Descargar ruta POT - FCM</button>
+        </a>
           
           
 

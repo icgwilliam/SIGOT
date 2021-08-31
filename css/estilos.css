@@ -130,10 +130,98 @@ header{
 }
 
 .image-home{
-  width: 80%;
-  height: 722.786px;
+  /*width: 80%;*/
+  width: 876.117px ;
+  height: 724.071px;
   margin-left: 82px;
   margin-top: 35px;
+}
+
+.desc-pdf-fcm{
+  background-color: #21C08D;
+  width: 317.512px;
+  height: 35.477px;
+  border-radius: 8px;
+  color: #047759;
+  background-color: #FFFFFF;
+  margin-left: 82px;
+  border: 0px;
+}
+
+.desc-nota{
+  margin-left: 133.756px;
+  background-color: #3595E0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: white;
+  border: 0px;
+  width: 133.756px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.entendido{
+  background-color: #3595E0;
+  width: 133.756px;
+  height: 32px;
+  border-radius: 8px;
+  color: white;
+  margin-left: 20px;
+  border: 0px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.Que-es{
+  background-color: #21C08D;
+  width: 317.512px;
+  height: 35.477px;
+  float: right;
+  margin-top: 9px;
+  margin-right: 20px;
+  border-radius: 8px;
+  color: #047759;
+  background-color: #FFFFFF;
+  border: 0px;
+  display: flex;
+  cursor:pointer;
+  
+}
+
+.Que-es-texto{
+  margin: auto;
+}
+
+.Que-es-clic{
+  border-top: solid #047759 5px;
+  height: fit-content;
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  right: 20px;
+  
+
+}
+
+.Que-es-clic button{
+  float: left;
+}
+
+.Que-es-clic p{
+  margin-left: 20px;
+  max-width: 277.512px;
+  color: #000000;
+}
+
+.Que-es-clic h1{
+  margin-left: 20px;
+  max-width: 277.512px;
+  font-size: 16pt;
+  font-family: 'Gill Sans Std semi Bold';
+}
+
+.mapa-paso-1{
+  background-color: red;
 }
 
 
@@ -154,6 +242,7 @@ header{
   width: 68%;
   /*height: 100%;*/
   box-shadow: 3px 0px 5px #666;
+  position: relative;
 }
 
 .notas{
@@ -162,7 +251,19 @@ header{
   width: 0%;
 }
 
+a.ancla:link{
+  text-decoration: none;
+  color: gray;
+  
 
+}
+a.ancla:hover{
+  background-color: transparent!important;
+}
+
+a.ancla:visited:active{
+  color: #21C08D;
+}
 
 .titulonotarel{
   color: #3168E4;
@@ -171,6 +272,7 @@ header{
   margin-top: 15px;
   margin-left: 40px;
   margin-right: 20px;
+  width: 84%;
 
 }
 
@@ -665,7 +767,7 @@ header{
   color: #000000;
   font-size: 23pt;
   margin-left: 20px;
-  max-width: 277.512px;
+  width: 87%;
   padding-right: 0px;
 }
 
@@ -678,7 +780,7 @@ header{
 
 .tarjeta p{
   margin-left: 20px;
-  max-width: 277.512px;
+  max-width: 87%;
 }
 
 .tarjeta a{
@@ -692,7 +794,7 @@ header{
 .lineatarjeta{
   border-top: 1px solid black;
   height: 2px;
-  width: 277.409px;
+  width: 87%;
   padding: 0px;
   margin-left: 20px;
   margin-bottom: 24.341px;
@@ -795,6 +897,7 @@ header{
   font-size: 12px;
   font-family: 'Gill Sans Std Bold';  
   margin-left: 20.49px;
+  max-width: 75%;
 }
 
 .img-paso{
@@ -1191,7 +1294,7 @@ header{
   margin-bottom: 0px;
   font-family: 'Gill Sans Std';
   vertical-align: middle;
-  max-width: 543.787px;
+  width: 83%;
 }
 
 .recurso .identificador{
@@ -1274,10 +1377,13 @@ connection {
   z-index: 500;
 }
 
+.more, .more-5, .more-7, .more-9, .more-10, .more-16, .more-17,  .more-18, .more-19, .more-20, .more-21, .more-22, .more-26,  .more-27, .more-29,  .more-30, .more-31, .more-33, .more-34, .more-35, .more-36, .more-38, .more-39, .more-41, .more-42, .more-43, .more-44, .more-45, .more-46, .more-47, .more-48, .more-49, .more-50, .more-51, .more-52, .more-53, .more-54, .more-59, .more-67, .more-68, .more-69 {
+  cursor: pointer;
+  color: #3595E0;
+  text-decoration: underline #3595E0;
+  margin-left: 20px;
+}
 
-
-
-
-
-
-
+.complete, .complete-5, .complete-7, .complete-9, .complete-10, .complete-16, .complete-17, .complete-18, .complete-19, .complete-20, .complete-21, .complete-22, .complete-26, .complete-27, .complete-29, .complete-30, .complete-31, .complete-33, .complete-34, .complete-35, .complete-36, .complete-38, .complete-39, .complete-41, .complete-42, .complete-43, .complete-44, .complete-45, .complete-46, .complete-47, .complete-48, .complete-49, .complete-50, .complete-51, .complete-52, .complete-53, .complete-54, .complete-59, .complete-67, .complete-68, .complete-69  {
+  display: none;
+}
