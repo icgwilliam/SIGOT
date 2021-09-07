@@ -1,80 +1,72 @@
 /*fonts*/
 @font-face {
-  font-family: 'Gill Sans Std semi Bold';
-  src: url(fonts/GillSans-SemiBold.eot);
-  src: url(fonts/GillSansStd-Bold.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSans-SemiBold.woff2) format('woff2'), url(fonts/GillSans-SemiBold.woff) format('woff'), url(/fonts/GillSans-SemiBold.ttf) format('truetype'), url(fonts/GillSans-SemiBold.svg#GillSans-SemiBold) format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Gill Sans Std Bold';
-  src: url(fonts/GillSansStd-Bold.eot);
-  src: url(fonts/GillSansStd-Bold.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd-Bold.woff2) format('woff2'), url(fonts/GillSansStd-Bold.woff) format('woff'), url(fonts/GillSansStd-Bold.ttf) format('truetype'), url(fonts/GillSansStd-Bold.svg#GillSansStd-Bold) format('svg');
+  src: url(/fonts/GillSansStd-Bold.eot);
+  src: url(/fonts/GillSansStd-Bold.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-Bold.woff2) format('woff2'), url(/fonts/GillSansStd-Bold.woff) format('woff'), url(/fonts/GillSansStd-Bold.ttf) format('truetype'), url(/fonts/GillSansStd-Bold.svg#GillSansStd-Bold) format('svg');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gill Sans Std Bold Italic';
-  src: url(fonts/GillSansStd-BoldItalic.eot);
-  src: url(fonts/GillSansStd-BoldItalic.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd-BoldItalic.woff2) format('woff2'), url(fonts/GillSansStd-BoldItalic.woff) format('woff'), url(fonts/GillSansStd-BoldItalic.ttf) format('truetype'), url(fonts/GillSansStd-BoldItalic.svg#GillSansStd-BoldItalic) format('svg');
+  src: url(/fonts/GillSansStd-BoldItalic.eot);
+  src: url(/fonts/GillSansStd-BoldItalic.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-BoldItalic.woff2) format('woff2'), url(/fonts/GillSansStd-BoldItalic.woff) format('woff'), url(/fonts/GillSansStd-BoldItalic.ttf) format('truetype'), url(/fonts/GillSansStd-BoldItalic.svg#GillSansStd-BoldItalic) format('svg');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gill Sans Std Bold Condensed';
-  src: url(../fonts/GillSansStd-BoldCondensed.eot);
-  src: url(fonts/GillSansStd-BoldCondensed.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd-BoldCondensed.woff2) format('woff2'), url(fonts/GillSansStd-BoldCondensed.woff) format('woff'), url(fonts/GillSansStd-BoldCondensed.ttf) format('truetype'), url(fonts/GillSansStd-BoldCondensed.svg#GillSansStd-BoldCondensed) format('svg');
+  src: url(/fonts/GillSansStd-BoldCondensed.eot);
+  src: url(/fonts/GillSansStd-BoldCondensed.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-BoldCondensed.woff2) format('woff2'), url(/fonts/GillSansStd-BoldCondensed.woff) format('woff'), url(/fonts/GillSansStd-BoldCondensed.ttf) format('truetype'), url(/fonts/GillSansStd-BoldCondensed.svg#GillSansStd-BoldCondensed) format('svg');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gill Sans Std Italic';
-  src: url(fonts/GillSansStd-Italic.eot);
-  src: url(fonts/GillSansStd-Italic.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd-Italic.woff2) format('woff2'), url(fonts/GillSansStd-Italic.woff) format('woff'), url(fonts/GillSansStd-Italic.ttf) format('truetype'), url(fonts/GillSansStd-Italic.svg#GillSansStd-Italic) format('svg');
+  src: url(/fonts/GillSansStd-Italic.eot);
+  src: url(/fonts/GillSansStd-Italic.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-Italic.woff2) format('woff2'), url(/fonts/GillSansStd-Italic.woff) format('woff'), url(/fonts/GillSansStd-Italic.ttf) format('truetype'), url(/fonts/GillSansStd-Italic.svg#GillSansStd-Italic) format('svg');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gill Sans Std Light';
-  src: url(fonts/GillSansStd-Light.eot);
-  src: url(fonts/GillSansStd-Light.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd-Light.woff2) format('woff2'), url(fonts/GillSansStd-Light.woff) format('woff'), url(fonts/GillSansStd-Light.ttf) format('truetype'), url(fonts/GillSansStd-Light.svg#GillSansStd-Light) format('svg');
+  src: url(/fonts/GillSansStd-Light.eot);
+  src: url(/fonts/GillSansStd-Light.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-Light.woff2) format('woff2'), url(/fonts/GillSansStd-Light.woff) format('woff'), url(/fonts/GillSansStd-Light.ttf) format('truetype'), url(/fonts/GillSansStd-Light.svg#GillSansStd-Light) format('svg');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gill Sans Std';
-  src: url(fonts/GillSansStd.eot);
-  src: url(fonts/GillSansStd.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd.woff2) format('woff2'), url(fonts/GillSansStd.woff) format('woff'), url(fonts/GillSansStd.ttf) format('truetype'), url(fonts/GillSansStd.svg#GillSansStd) format('svg');
+  src: url(/fonts/GillSansStd.eot);
+  src: url(/fonts/GillSansStd.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd.woff2) format('woff2'), url(/fonts/GillSansStd.woff) format('woff'), url(/fonts/GillSansStd.ttf) format('truetype'), url(/fonts/GillSansStd.svg#GillSansStd) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gill Sans Std Extra Bold Disp';
-  src: url(fonts/GillSansStd-ExtraBoldDisp.eot);
-  src: url(fonts/GillSansStd-ExtraBoldDisp.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd-ExtraBoldDisp.woff2) format('woff2'), url(fonts/GillSansStd-ExtraBoldDisp.woff) format('woff'), url(fonts/GillSansStd-ExtraBoldDisp.ttf) format('truetype'), url(fonts/GillSansStd-ExtraBoldDisp.svg#GillSansStd-ExtraBoldDisp) format('svg');
+  src: url(/fonts/GillSansStd-ExtraBoldDisp.eot);
+  src: url(/fonts/GillSansStd-ExtraBoldDisp.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-ExtraBoldDisp.woff2) format('woff2'), url(/fonts/GillSansStd-ExtraBoldDisp.woff) format('woff'), url(/fonts/GillSansStd-ExtraBoldDisp.ttf) format('truetype'), url(/fonts/GillSansStd-ExtraBoldDisp.svg#GillSansStd-ExtraBoldDisp) format('svg');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gill Sans Std Condensed';
-  src: url(fonts/GillSansStd-Condensed.eot);
-  src: url(fonts/GillSansStd-Condensed.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd-Condensed.woff2) format('woff2'), url(fonts/GillSansStd-Condensed.woff) format('woff'), url(fonts/GillSansStd-Condensed.ttf) format('truetype'), url(fonts/GillSansStd-Condensed.svg#GillSansStd-Condensed) format('svg');
+  src: url(/fonts/GillSansStd-Condensed.eot);
+  src: url(/fonts/GillSansStd-Condensed.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-Condensed.woff2) format('woff2'), url(/fonts/GillSansStd-Condensed.woff) format('woff'), url(/fonts/GillSansStd-Condensed.ttf) format('truetype'), url(/fonts/GillSansStd-Condensed.svg#GillSansStd-Condensed) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gill Sans Std Extra Bold';
-  src: url(fonts/GillSansStd-ExtraBold.eot);
-  src: url(fonts/GillSansStd-ExtraBold.eot?#iefix) format('embedded-opentype'), url(fonts/GillSansStd-ExtraBold.woff2) format('woff2'), url(fonts/GillSansStd-ExtraBold.woff) format('woff'), url(fonts/GillSansStd-ExtraBold.ttf) format('truetype'), url(fonts/GillSansStd-ExtraBold.svg#GillSansStd-ExtraBold) format('svg');
+  src: url(/fonts/GillSansStd-ExtraBold.eot);
+  src: url(/fonts/GillSansStd-ExtraBold.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-ExtraBold.woff2) format('woff2'), url(/fonts/GillSansStd-ExtraBold.woff) format('woff'), url(/fonts/GillSansStd-ExtraBold.ttf) format('truetype'), url(/fonts/GillSansStd-ExtraBold.svg#GillSansStd-ExtraBold) format('svg');
   font-weight: 800;
   font-style: normal;
 }
@@ -321,6 +313,7 @@ a.ancla:visited:active{
 .boton_next{
   text-decoration: none;
   margin-right: 5px;
+  color: #809098;
 }
 
 .boton_next:active {  
@@ -350,6 +343,7 @@ a.ancla:visited:active{
 .boton_back{
   text-decoration: none;
   margin-right: 5px;
+  color: #809098;
 }
 
 .boton_back:active {  
@@ -371,7 +365,7 @@ a.ancla:visited:active{
 
 .mensaje h2{
   font-family: 'Gill Sans Std Bold';
-  font-size: 18;
+  font-size: 18pt;
   color: #000000;
   margin-top: 16.478px;
 }
@@ -379,15 +373,39 @@ a.ancla:visited:active{
 .convenciones{
   font-style: italic;
   color: #6445E1;
-  margin: 0px;
-  padding: 0px;
+  display: grid;
+
 }
 
 .convenciones img{
   float: left;
-  margin: 0px;
-  padding: 0px;
+  display: inline;
+  width: 21px;
+  height: 21px;
+
 }
+
+.convtecnico{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.convencionesp{
+  
+  margin-left: 5px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.convadmin{
+  color: #F14A36;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+
 
 .tarjetas{
   width: 95.5%;
@@ -408,21 +426,35 @@ a.ancla:visited:active{
   width: 94%;
 }
 
+.informacion-paso-p{
+  margin-bottom: 25px;
+}
+
+
+
 .informacion-paso h2{
   font-family: 'Gill Sans Std Light';
   font-size: 18pt;
   margin-top: 36.393px;
+  margin-bottom: 0px;
 }
 
 .informacion-paso h1{
   font-family: 'Gill Sans Std Bold';
   font-size: 30pt;
-  line-height: 0%;
+  /*line-height: 0%;*/
   color: #3595E0;
 }
 
-.informacion-paso h3{ 
-  margin-top: 50px;
+.informacion-paso-h3{ 
+  margin-top: 25px;
+  font-family: 'Gill Sans Std Bold';
+  font-size: 14pt;
+  color: #000000;
+}
+
+.actividades-h3{ 
+  margin-top: 40px;
   font-family: 'Gill Sans Std Bold';
   font-size: 14pt;
   color: #000000;
@@ -455,6 +487,17 @@ a.ancla:visited:active{
   opacity: 99%;
 }
 
+.lineaactividades {
+  border-top: 1px solid black;
+  height: 2px;
+  width: 100%;
+  padding: 0;
+  margin-left: 0px;
+  margin-bottom: 35px;
+  border-color: lightgray;
+  opacity: 99%;
+}
+
 .linearecursorelacionado {
   border-top: 1px solid black;
   height: 2px;
@@ -478,7 +521,7 @@ a.ancla:visited:active{
 }*/
 
 .no{
-  color: lightgray;
+  color: #808080;
 }
 
 .informacion-paso ul u{
@@ -488,33 +531,37 @@ a.ancla:visited:active{
 .convencionestitulo{
   color: #000000;
   font-style: italic;
+  margin: 25px 0px 25px;
 }
 
 .container2{
-  width: 100%;
+  width: 97%;
 
 }
 
 .parenttarjetas{
-  width: 100%;
+  width: 97%;
+  column-count: 2;
+  
 }
 
+
 .tarjeta{
-  width: 46%;
-  height: fit-content;
-  /*height: 369px;*/
-  border-radius: 8px;
-  /*border: blue solid 3px;*/
-  margin-left: 20px;
-  margin-bottom: 20px;
   background-color: #FFFFFF;
   border-left:blue solid 5px;
   display: inline-block;
-  padding: 0px;
-  vertical-align: top;
-/*  float: top;*/
+  margin: 0 0 20px;
+  width: 100%;
   position: relative;
+  vertical-align: top;
+  padding: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  height: auto;
 }
+
+
 
 .tagsi{
   background-color: #21C08D;
@@ -549,7 +596,7 @@ a.ancla:visited:active{
 .semaforo{
   border-radius: 10px;
   border: 2px solid #FBD9A8;
-  width: 635.01px;
+  width: 96%;
   padding: 5px;
   color: black;
   background-color: #FDF1DE;
@@ -563,7 +610,7 @@ a.ancla:visited:active{
 .semaforopaso3{
   border-radius: 10px;
   border: 2px solid #FBD9A8;
-  width: 635.01px;
+  width: 100%;
   padding: 5px;
   color: black;
   background-color: #FDF1DE;
@@ -723,7 +770,8 @@ a.ancla:visited:active{
 .tooltiptarjeta .tooltiptext {
   font-size: 10pt;
   visibility: hidden;
-  width: 120px;
+  width: 145.376px;
+  height: 42.18px;
   background-color: #5045B3;
   color: #fff;
   text-align: center;
@@ -731,10 +779,12 @@ a.ancla:visited:active{
   padding: 1px 0;
   bottom: 30px;
   right: -25px;
+  align-items: center;
+  display: grid;
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
+  z-index: 100;
 }
 
 .tooltiptarjeta:hover .tooltiptext {
@@ -744,7 +794,8 @@ a.ancla:visited:active{
 .tooltiptarjeta .tooltiptextadmin {
   font-size: 10pt;
   visibility: hidden;
-  width: 180px;
+  width: 206.376px;
+  height: 55.18px;
   background-color: red;
   color: #fff;
   text-align: center;
@@ -752,11 +803,15 @@ a.ancla:visited:active{
   padding: 1px 0;
   bottom: 30px;
   right: -85px;
+  align-items: center;
+  display: grid;
 
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
 }
+
+
 
 .tooltiptarjeta:hover .tooltiptextadmin {
   visibility: visible;
@@ -764,9 +819,10 @@ a.ancla:visited:active{
 
 
 .tarjetas .contextoh1{
-  font-family: 'Gill Sans Std semi Bold';
+  font-family: 'Gill Sans Std Bold';
   color: #3595E0;
   font-size: 30pt;
+  margin-top: 10px;
   /*margin-left: 20px;*/
 }
 
@@ -777,6 +833,7 @@ a.ancla:visited:active{
   margin-left: 20px;
   width: 87%;
   padding-right: 0px;
+  margin-bottom: 20px;
 }
 
 .tarjeta h2{
@@ -784,11 +841,18 @@ a.ancla:visited:active{
   color: #000000;
   font-size: 14pt;
   margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.tarjeta ul li{
+  padding-left:1em;
+  text-indent: -40px;
 }
 
 .tarjeta p{
   margin-left: 20px;
   max-width: 87%;
+  margin-bottom: 20px;
 }
 
 .tarjeta a{
@@ -805,7 +869,7 @@ a.ancla:visited:active{
   width: 87%;
   padding: 0px;
   margin-left: 20px;
-  margin-bottom: 24.341px;
+  margin-bottom: 20px;
   border-color: lightgray;
   opacity: 99%;
 }
@@ -905,7 +969,7 @@ a.ancla:visited:active{
   font-size: 12px;
   font-family: 'Gill Sans Std Bold';  
   margin-left: 20.49px;
-  max-width: 75%;
+  max-width: 63%;
 }
 
 .img-paso{
@@ -1055,15 +1119,38 @@ a.ancla:visited:active{
 .lineacooperantes {
   border-top: 1px solid black;
   height: 2px;
-  max-width: 310px;
+  max-width: 89%;
+  padding: 0;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  border-color: lightgray;
+  opacity: 99%;
+}
+
+.lineacooperantesopaca {
+  border-top: 1px solid lightgray;
+  height: 1px;
+  max-width: 89%;
   padding: 0;
   margin-left: 0px;
   margin-bottom: 24.341px;
   border-color: lightgray;
   opacity: 99%;
 }
+
+.lineacooperantesvertical{
+  border-right: 1px solid black;
+  height: 40px;
+  width: 1px;
+  padding: 0;
+  margin-left: 15px;
+  margin-bottom: 19px;
+  border-color: lightgray;
+  opacity: 99%;
+  display: inline;
+}
 .cooperantes img{
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .creditos{
@@ -1104,7 +1191,8 @@ a.ancla:visited:active{
 
 .notastexto{
   width: 89%;
-  margin-left: 17.512px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: inline-block;
   
 }
@@ -1158,7 +1246,7 @@ a.ancla:visited:active{
 .lineanotas{
   border-top: 1px solid black;
   height: 2px;
-  width: 217.479px;
+  width: 78%;
   padding: 0;
   margin-left: 0px;
   margin-bottom: 19.944px;
@@ -1181,7 +1269,8 @@ a.ancla:visited:active{
   width: 317.465px;
   height: fit-content;
   border: #5B86E5 solid 2px;
-  margin-left: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 10px;
   background-color: #F4F7FE;
   opacity: 100%;
@@ -1211,11 +1300,11 @@ a.ancla:visited:active{
 }
 
 .titulo{
-  font-family: 'Gill Sans Std Bold Italic';
+  font-family: 'Gill Sans Std Bold';
   color: #3268DF;
-  font-size: 15pt;
+  font-size: 16pt;
   margin-left: 55.499px;   
-  margin-top: 32px;
+  margin-top: 30px;
 }
 
 .subtitulo{
@@ -1228,9 +1317,10 @@ a.ancla:visited:active{
 }
 
 .notasp{
-  font-size: 12pt;
+  /*font-size: 14pt;*/
   color: #000000;
   width: 100%;
+  opacity: 60%;
   /*margin-left: 20px;*/
   /*margin-right: 25px;*/
 }
@@ -1241,6 +1331,7 @@ a.ancla:visited:active{
   max-width: 277.465px;
   color: #000000;
   margin-bottom: 29.59px;
+  opacity: 60%;
 }
 
 .circlenota {
@@ -1274,7 +1365,7 @@ a.ancla:visited:active{
   margin-bottom: 10px;
   position: relative;
   display: block;
-/*  line-height : normal;*/
+  line-height : 10px;
   overflow:hidden
 }
 
@@ -1394,4 +1485,50 @@ connection {
 
 .complete, .complete-5, .complete-7, .complete-9, .complete-10, .complete-16, .complete-17, .complete-18, .complete-19, .complete-20, .complete-21, .complete-22, .complete-26, .complete-27, .complete-29, .complete-30, .complete-31, .complete-33, .complete-34, .complete-35, .complete-36, .complete-38, .complete-39, .complete-41, .complete-42, .complete-43, .complete-44, .complete-45, .complete-46, .complete-47, .complete-48, .complete-49, .complete-50, .complete-51, .complete-52, .complete-53, .complete-54, .complete-59, .complete-67, .complete-68, .complete-69  {
   display: none;
+}
+
+
+
+
+
+
+.current {
+  /*color: #3595E0;*/
+  color: yellow;
+  
+}
+
+#pagin li {
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.prev {
+  cursor: pointer;
+}
+
+.next {
+  cursor: pointer;
+}
+
+.last{
+  cursor:pointer;
+  margin-left:5px;
+}
+
+.first{
+  cursor:pointer;
+  margin-right:5px;
+}
+
+#pagin{
+  text-align: center; 
+  font-size: 13pt;
+}
+
+#pagin a {
+  background-color: transparent;
+  text-decoration: none;
+  color: #000000;
 }
