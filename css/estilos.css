@@ -1,8 +1,32 @@
 /*fonts*/
 @font-face {
+  font-family: 'Geometria Bold';
+  src: url(/fonts/Geometria-Bold.eot);
+  src: url(/fonts/Geometria-Bold.eot?#iefix) format('embedded-opentype'), url(/fonts/Geometria-Bold.woff2) format('woff2'), url(/fonts/Geometria-Bold.woff) format('woff'), url(/fonts/Geometria-Bold.ttf) format('truetype'), url(/fonts/Geometria-Bold.svg#Geometria-Bold) format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  src: url(/fonts/GillSans.eot);
+  src: url(/fonts/GillSans.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSans.woff2) format('woff2'), url(/fonts/GillSans.woff) format('woff'), url(/fonts/GillSans.ttf) format('truetype'), url(/fonts/GillSans.svg#GillSans) format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Gill Sans Std Bold';
   src: url(/fonts/GillSansStd-Bold.eot);
   src: url(/fonts/GillSansStd-Bold.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSansStd-Bold.woff2) format('woff2'), url(/fonts/GillSansStd-Bold.woff) format('woff'), url(/fonts/GillSansStd-Bold.ttf) format('truetype'), url(/fonts/GillSansStd-Bold.svg#GillSansStd-Bold) format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Std semi Bold';
+  src: url(/fonts/GillSans-SemiBold.eot);
+  src: url(/fonts/GillSans-SemiBold.eot?#iefix) format('embedded-opentype'), url(/fonts/GillSans-SemiBold.woff2) format('woff2'), url(/fonts/GillSans-SemiBold.woff) format('woff'), url(/fonts/GillSans-SemiBold.ttf) format('truetype'), url(/fonts/GillSans-SemiBold.svg#GillSans-SemiBold) format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -80,7 +104,7 @@ body{
   /*width: 1440px;*/
   width: 100%;
   font-family: "Gill Sans Std";
-  font-size-adjust: 14pt;
+  font-size-adjust: 14px;
   letter-spacing: 0.0em;
   line-height: normal;
   color:gray; 
@@ -169,7 +193,7 @@ header{
   width: 317.512px;
   height: 35.477px;
   float: right;
-  margin-top: 9px;
+  margin-top: 20px;
   margin-right: 20px;
   border-radius: 8px;
   color: #047759;
@@ -208,7 +232,7 @@ header{
 .Que-es-clic h1{
   margin-left: 20px;
   max-width: 277.512px;
-  font-size: 16pt;
+  font-size: 16px;
   font-family: 'Gill Sans Std semi Bold';
 }
 
@@ -221,20 +245,24 @@ header{
   /*position: fixed;*/
   position: sticky;
   top: 0px;
-  width: 32%;
+  width: 25%;
   border: 1px;
   background-color: #FAFAFA;
   /*float: left;*/
   border-radius: 6px;
   height: fit-content;
-  box-shadow: 3px 3px 5px #666;
+  box-shadow: 3px 0px 9px 4px #BABFB5;
+  margin-top: 60px;
+  z-index: 20;
 }
 
 .containertarjetas{
-  width: 68%;
+  width: 75%;
   /*height: 100%;*/
-  box-shadow: 3px 0px 5px #666;
+  box-shadow: 3px 0px 9px 4px #BABFB5;
   position: relative;
+  margin-top: 60px;
+  background-color: #D7E0E5;
 }
 
 .notas{
@@ -259,8 +287,8 @@ a.ancla:visited:active{
 
 .titulonotarel{
   color: #3168E4;
-  font-family: 'Gill Sans Std Bold Italic';
-  font-size: 12pt;
+  font-family: 'Gill Sans Std Italic';
+  font-size: 14px;
   margin-top: 15px;
   margin-left: 40px;
   margin-right: 20px;
@@ -281,7 +309,7 @@ a.ancla:visited:active{
   color: #3268DF;
   text-align: center;
   font-family: 'Gill Sans Std Bold';
-  font-size: 11pt;
+  font-size: 11px;
   float: left;  
   margin-left: 20px;
   /*margin-top: 15px;*/
@@ -297,14 +325,14 @@ a.ancla:visited:active{
 
 
 .siguiente{
-  /*background-color: burlywood;*/
-  width: 130px;
+  /*background-color: burlywood;
+  width: 130px;*/
   height: 15px;
   float: right;
   margin-top: 35.62px;
   color: gray;
-  margin-right: 20px;
-  font-size: 9pt;
+  margin-right: 10px;
+  font-size: 9px;
   font-family: 'Gill Sans Std Bold';
   display: flex;
   align-items: center;
@@ -314,6 +342,8 @@ a.ancla:visited:active{
   text-decoration: none;
   margin-right: 5px;
   color: #809098;
+  font-family: 'Geometria Bold';
+  font-size: 9.71px;
 }
 
 .boton_next:active {  
@@ -330,7 +360,7 @@ a.ancla:visited:active{
   margin-top: 35.62px;
   color: gray;
   margin-left: 20px;
-  font-size: 9pt;
+  font-size: 9px;
   font-family: 'Gill Sans Std Bold';
   display: flex;
   align-items: center;
@@ -342,8 +372,10 @@ a.ancla:visited:active{
 
 .boton_back{
   text-decoration: none;
-  margin-right: 5px;
+  margin-left: 5px;
   color: #809098;
+  font-family: 'Geometria Bold';
+  font-size: 9.71px;
 }
 
 .boton_back:active {  
@@ -359,13 +391,13 @@ a.ancla:visited:active{
 
 .mensaje h1{
   color: #6445E1;
-  font-size: 14pt;
+  font-size: 14px;
   margin-top: 40px;
 }
 
 .mensaje h2{
-  font-family: 'Gill Sans Std Bold';
-  font-size: 18pt;
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 18px;
   color: #000000;
   margin-top: 16.478px;
 }
@@ -428,35 +460,103 @@ a.ancla:visited:active{
 
 .informacion-paso-p{
   margin-bottom: 25px;
+  color: #000000;
+  opacity: 60%;
 }
 
 
 
 .informacion-paso h2{
   font-family: 'Gill Sans Std Light';
-  font-size: 18pt;
+  font-size: 18px;
   margin-top: 36.393px;
   margin-bottom: 0px;
 }
 
+.icono-paso{
+  float: right;
+  margin-top: 20px;
+  position: relative;
+  margin-right: 20px;
+  
+}
+
+.anuncio{
+  border-top: solid 5px #FAB900;
+  width: 317.512px;
+  height: auto;
+  z-index: 250;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  position: absolute;
+    top: 85px;
+    right: 20px;
+}
+
+.anuncio h2{
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 14px;
+  color: #000000;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.boton{
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.anuncio p{
+  margin-left: 20px;
+  width: 277.512px;
+  margin-bottom: 20px;
+}
+
+.anuncio a{
+  padding: 7px 25px;
+  margin-left: 20px;
+  border-radius: 8px;
+  background-color: #3595E0;
+  color: white;
+  width: 133.756px;
+  height: 32px;
+  border: none;
+  font-family: 'Gill Sans Std';
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.boton-cerrar{
+  border-radius: 8px;
+  width: 133.756px;
+  height: 32px;
+  border: solid 1px #3595E0;
+  background-color: white;
+  color: #3595E0;
+  margin-bottom: 20px;
+}
 .informacion-paso h1{
   font-family: 'Gill Sans Std Bold';
-  font-size: 30pt;
+  font-size: 30px;
   /*line-height: 0%;*/
   color: #3595E0;
 }
 
 .informacion-paso-h3{ 
   margin-top: 25px;
-  font-family: 'Gill Sans Std Bold';
-  font-size: 14pt;
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 14px;
   color: #000000;
 }
 
 .actividades-h3{ 
   margin-top: 40px;
-  font-family: 'Gill Sans Std Bold';
-  font-size: 14pt;
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 14px;
   color: #000000;
 }
 
@@ -464,14 +564,14 @@ a.ancla:visited:active{
   background-color: blueviolet;
   margin-left: 20px;
   font-family: 'Gill Sans Std Bold';
-  font-size: 14pt;
+  font-size: 14px;
   color: #000000;
 }*/
 
 .recursos h3{
   margin-left: 20px;
   font-family: 'Gill Sans Std Bold';
-  font-size: 14pt;
+  font-size: 14px;
   color: #000000;
 }
 
@@ -514,6 +614,7 @@ a.ancla:visited:active{
   padding: 0;
   margin-left: 20px;
   color: #000000;
+  opacity: 60%;
 }
 
 /*.informacion-paso ul span{
@@ -529,9 +630,11 @@ a.ancla:visited:active{
 }
 
 .convencionestitulo{
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 14px;
   color: #000000;
   font-style: italic;
-  margin: 25px 0px 25px;
+  margin: 15px 0px 15px;
 }
 
 .container2{
@@ -697,14 +800,14 @@ a.ancla:visited:active{
   margin-left: 0px;
 }
 /*.tarjeta h4{
-  font-size: 13pt;
+  font-size: 13px;
   color: #5045B3;
   margin-left: 20px;
 }*/
 
 .h4tecnico{
   font-family: 'Gill Sans Std';
-  font-size: 13pt;
+  font-size: 13px;
   color: #5045B3;
   margin-left: 20px;
   margin-top: 20px;
@@ -713,7 +816,7 @@ a.ancla:visited:active{
 
 .h4admin{
   font-family: 'Gill Sans Std';
-  font-size: 13pt;
+  font-size: 13px;
   color: red;
   margin-left: 0px;
   margin-top: 20px;
@@ -722,7 +825,7 @@ a.ancla:visited:active{
 
 .h4adminalone{
   font-family: 'Gill Sans Std';
-  font-size: 13pt;
+  font-size: 13px;
   color: red;
   margin-left: 20px;
   margin-top: 20px;
@@ -768,7 +871,7 @@ a.ancla:visited:active{
 }
 
 .tooltiptarjeta .tooltiptext {
-  font-size: 10pt;
+  font-size: 14px;
   visibility: hidden;
   width: 145.376px;
   height: 42.18px;
@@ -792,7 +895,7 @@ a.ancla:visited:active{
 }
 
 .tooltiptarjeta .tooltiptextadmin {
-  font-size: 10pt;
+  font-size: 14px;
   visibility: hidden;
   width: 206.376px;
   height: 55.18px;
@@ -819,9 +922,9 @@ a.ancla:visited:active{
 
 
 .tarjetas .contextoh1{
-  font-family: 'Gill Sans Std Bold';
+  font-family: 'Gill Sans Std semi Bold';
   color: #3595E0;
-  font-size: 30pt;
+  font-size: 30px;
   margin-top: 10px;
   /*margin-left: 20px;*/
 }
@@ -829,7 +932,7 @@ a.ancla:visited:active{
 .tarjeta h1{
   font-family: 'Gill Sans Std Light';
   color: #000000;
-  font-size: 23pt;
+  font-size: 23px;
   margin-left: 20px;
   width: 87%;
   padding-right: 0px;
@@ -837,9 +940,9 @@ a.ancla:visited:active{
 }
 
 .tarjeta h2{
-  font-family: 'Gill Sans Std Bold';
+  font-family: 'Gill Sans Std semi Bold';
   color: #000000;
-  font-size: 14pt;
+  font-size: 14px;
   margin-left: 20px;
   margin-bottom: 15px;
 }
@@ -857,6 +960,7 @@ a.ancla:visited:active{
 
 .tarjeta a{
   margin-left: 20px;
+  text-decoration: underline;
 }
 
 .tarjeta ol li{
@@ -877,7 +981,7 @@ a.ancla:visited:active{
 .linea {
   border-top: 1px solid black;
   height: 2px;
-  max-width: 310px;
+  width: 88%;
   padding: 0;
   margin-left: 20px;
   margin-bottom: 24.341px;
@@ -897,7 +1001,7 @@ a.ancla:visited:active{
   border-radius: 5px;
   display: inline-block;
   position: relative;
-  font-family: 'Gill Sans Std Bold';
+  font-family: 'Gill Sans Std semi Bold';
   cursor:pointer;
 }
 
@@ -951,7 +1055,7 @@ a.ancla:visited:active{
   color: white;
   text-align: center;
   font-family: 'Gill Sans Std Bold';
-  font-size: 13.33pt;
+  font-size: 13.33px;
   float: left;  
   position: absolute;
   top: 22%;
@@ -966,10 +1070,11 @@ a.ancla:visited:active{
 
 .paso h3{
   float: left;
-  font-size: 12px;
-  font-family: 'Gill Sans Std Bold';  
+  font-size: 14px;
+  font-family: 'Gill Sans Std semi Bold';  
   margin-left: 20.49px;
   max-width: 63%;
+  margin-top: 14px;
 }
 
 .img-paso{
@@ -977,6 +1082,10 @@ a.ancla:visited:active{
   display:block;
   float: right;
   /*vertical-align: middle;*/
+}
+
+.img-paso-opacity{
+  opacity: 0.1;
 }
 
 #paso0 .div-img-paso0{
@@ -996,11 +1105,11 @@ a.ancla:visited:active{
   width: 25px;
   height: 25px;
   padding: 0px;
-  background: #D38424;
+  background: #3595E0;
   color: white;
   text-align: center;
-  font-family: 'Gill Sans Std Bold';
-  font-size: 13.33pt;
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 13.33px;
   float: left;  
   position: absolute;
   top: 22%;
@@ -1015,8 +1124,8 @@ a.ancla:visited:active{
   background: white;
   color: gray;
   text-align: center;
-  font-family: 'Gill Sans Std Bold';
-  font-size: 13.33pt;
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 13.33px;
   float: left;  
   position: absolute;
   top: 22%;
@@ -1034,7 +1143,7 @@ a.ancla:visited:active{
   color: #000000;
   text-align: center;
   font-family: 'Gill Sans Std Bold';
-  font-size: 13.33pt;
+  font-size: 13.33px;
   float: left;  
   position: absolute;
   top: 22%;
@@ -1052,7 +1161,7 @@ a.ancla:visited:active{
   color: #ffffff;
   text-align: center;
   font-family: 'Gill Sans Std Bold';
-  font-size: 13.33pt;
+  font-size: 13.33px;
   float: left;  
   position: absolute;
   top: 22%;
@@ -1083,6 +1192,11 @@ a.ancla:visited:active{
   cursor: pointer;
 }
 
+.paso0 img{
+  height: 63.714px;
+  width: 68.476px;
+}
+
 .paso0 h1{
   color: white;
   float: left;
@@ -1091,8 +1205,8 @@ a.ancla:visited:active{
 
 .paso0 h3{
   float: left;
-  font-size: 12px;
-  font-family: 'Gill Sans Std Bold';  
+  font-size: 14px;
+  font-family: 'Gill Sans Std semi Bold';  
   margin-left: 20.49px;
   color: white;
 }
@@ -1106,13 +1220,13 @@ a.ancla:visited:active{
 
 .cooperantes{
   margin-left: 20px;
-  width: 310 px;
+  width: 100%;
   margin-top: 78.444px;
 }
 
 .cooperantes h1{
-  font-family: 'Gill Sans Std Bold';
-  font-size: 14pt;
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 14px;
   color: #000000;
 }
 
@@ -1133,7 +1247,7 @@ a.ancla:visited:active{
   max-width: 89%;
   padding: 0;
   margin-left: 0px;
-  margin-bottom: 24.341px;
+  
   border-color: lightgray;
   opacity: 99%;
 }
@@ -1147,41 +1261,99 @@ a.ancla:visited:active{
   margin-bottom: 19px;
   border-color: lightgray;
   opacity: 99%;
-  display: inline;
+  display: -webkit-inline-box;
+  vertical-align: middle;
 }
-.cooperantes img{
+
+.lineacooperantesvertical-2da-linea{
+  border-right: 1px solid black;
+  height: 40px;
+  width: 1px;
+  padding: 0;
+  margin-left: 15px;
+  margin-top: 14.615px;
+  margin-bottom: 18.288px;
+  border-color: lightgray;
+  opacity: 99%;
+  display: -webkit-inline-box;
+  vertical-align: middle;
+}
+
+
+/*.cooperantes img{
   margin-left: 20px;
+  margin-top: 20px;
+  padding: 0px;
+}*/
+
+.fede-muni-img{
+  padding: 0px;
+  width: 82.272px;
+  height: 36.831px;
+  margin-left: 41.364px;
+  margin-bottom: 18.866px;
+}
+
+.muni-paz-img{
+  margin-left: 12.5px;
+  padding: 0px;
+  width: 116.418px;
+  height: 42.766px;
+  margin-bottom: 17.483px;
+}
+
+.hoja-ruta-img{
+  height: 31.069px;
+  width: 125.732px;
+  margin-left: 5.634px;
+  padding: 0px;
+  margin-top: 4.47px;
+}
+
+.UE-img{
+  width: 57.606px;
+  height: 46.188px;
+  margin-left: 36.7276px;
+}
+
+.igac-img{
+  width: 68.749px;
+  height: 35.817px;
+  margin-left: 36.728px;
+  margin-top: 20.379px;
 }
 
 .creditos{
   margin-left: 20px;
-  width: 89%;
+  width: 100%;
   margin-top: 59.963px;
 }
 
 .creditos h1{
-    font-family: 'Gill Sans Std Bold';
-    font-size: 14pt;
+    font-family: 'Gill Sans Std semi Bold';
+    font-size: 14px;
     color: #000000;
 }
 
 .creditos h2{
   font-family: 'Gill Sans Std';
-  font-size: 13pt;
+  font-size: 13px;
   color: #000000;
   margin: 0;
   margin-top: 22px;
+  width: 89%;
 }
 
 .creditos h3{
   font-family: 'Gill Sans Std Italic';
-  font-size: 13pt;
+  font-size: 13px;
   margin: 0;
 }
 
 .creditos .tegusto{
   margin-top: 80px;
   margin-bottom: 20px;
+  font-size: 14px;
 
 }
 
@@ -1201,25 +1373,27 @@ a.ancla:visited:active{
   float: right;
   margin-top: 6.69px;
   margin-right: 25.158px;
+  width: 40px;
+  height: 40px;
 
 }
 
 /*.notas h1{
   font-family: 'Gill Sans Std Bold';
-  font-size: 14pt;
+  font-size: 14px;
   color: #000000;
   
 }*/
 
 .titulonotas{
-  font-family: 'Gill Sans Std Bold';
-  font-size: 14pt;
+  font-family: 'Gill Sans Std semi Bold';
+  font-size: 14px;
   color: #000000;
 }
 
 /*.notas p{
   font-family: 'Gill Sans Std';
-  font-size: 10pt;
+  font-size: 10px;
   color: #000000;
   max-width: 217.465px;
 }*/
@@ -1281,8 +1455,8 @@ a.ancla:visited:active{
   margin-top: 84.428px;
   margin-left: 42.444px;
   margin-bottom: 102.179px;
-  width: 269.932 px;
-  height: 287.259 px;
+  width: 269.932px;
+  height: 271.735px;
 }
 
 .img-alerta-nota{
@@ -1290,26 +1464,29 @@ a.ancla:visited:active{
   position: relative;
   top: 32px;
   right: 20px;
+  width: 28.751px;
+  height: 25px;
 }
 
 .numero{
   color: #3268DF;
-  font-size: 12pt;
+  font-size: 12px;
   float: left;
   margin-left: 20px;
 }
 
 .titulo{
-  font-family: 'Gill Sans Std Bold';
+  font-family: 'Gill Sans Std semi Bold';
+  font-style: italic;
   color: #3268DF;
-  font-size: 16pt;
+  font-size: 16px;
   margin-left: 55.499px;   
-  margin-top: 30px;
+  margin-top: 36.972px;
 }
 
 .subtitulo{
   color: #5B86E5;
-  font-size: 12pt;
+  font-size: 16px;
   /*display: inline;*/
   margin-left: 20px;
   font-family: 'Gill Sans Std Italic';
@@ -1317,7 +1494,7 @@ a.ancla:visited:active{
 }
 
 .notasp{
-  /*font-size: 14pt;*/
+  /*font-size: 14px;*/
   color: #000000;
   width: 100%;
   opacity: 60%;
@@ -1327,7 +1504,7 @@ a.ancla:visited:active{
 
 .notap{
   margin-left: 20px;
-  font-size: 11pt;
+  
   max-width: 277.465px;
   color: #000000;
   margin-bottom: 29.59px;
@@ -1343,10 +1520,10 @@ a.ancla:visited:active{
   color: #3268DF;
   text-align: center;
   font-family: 'Gill Sans Std Bold';
-  font-size: 12pt;
+  font-size: 12px;
   float: left;  
   margin-left: 20px;
-  margin-top: 29px;
+  margin-top: 33px;
   display: inline-table;
 }
 
@@ -1387,7 +1564,7 @@ a.ancla:visited:active{
 
 .recurso .titulorecurso{
   color: #000000;
-  font-size: 12pt;
+  font-size: 16px;
   margin-left: 40px;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -1398,7 +1575,7 @@ a.ancla:visited:active{
 
 .recurso .identificador{
   font-family: 'Gill Sans Std italic';
-  font-size: 13pt;
+  font-size: 13px;
   float: right;
   color: #000000;
   opacity: 40%;
@@ -1410,7 +1587,7 @@ a.ancla:visited:active{
 
 .recurso .entidad{
   font-family: 'Gill Sans Std';
-  font-size: 12pt;
+  font-size: 14px;
   color: #6445E1;
   margin-left: 40px;
   margin-bottom:0px;
@@ -1420,10 +1597,11 @@ a.ancla:visited:active{
 }
 
 .recurso .anio{
-  font-size: 12pt;
+  font-family: 'Gill Sans Std';
+  font-size: 14px;
   color: #000000;
   margin-left: 40px;
-  opacity: 60%;
+  opacity: 0.6;
   margin-bottom:20px;
   margin-top: 0px;
 }
@@ -1504,8 +1682,11 @@ connection {
   
 }
 
+
+
 .prev {
   cursor: pointer;
+  display: inline-block !important;
 }
 
 .next {
@@ -1524,11 +1705,13 @@ connection {
 
 #pagin{
   text-align: center; 
-  font-size: 13pt;
+  font-size: 13px;
+  list-style-type: none;
 }
 
 #pagin a {
   background-color: transparent;
   text-decoration: none;
   color: #000000;
+  
 }

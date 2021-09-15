@@ -1,14 +1,19 @@
 ﻿var web_service = "https://serviciosgeovisor.igac.gov.co:8080/Geovisor/";
 var loading;
 
+
+
 $(function(){
     $('body').on('click', '.Que-es', function() {
+        
         $(this).addClass('Que-es-clic');
+        
         var elemento = document.getElementById('Que-es-id');
         elemento.innerHTML = '<h1>Bienvenidos</h1>'+'<p>Estamos en la Ruta del POT: Una guía para tomar la dirección adecuada. Este es espacio para que los municipios tengan un apoyo para realizar los procesos de revisión, ajuste o elaboración de su Plan de Ordenamiento Territorial – POT. Es el resultado de un proceso minucioso de que busca dar respuestas a los municipios sobre posibles obstáculos y dificultades que se encontrarán en el proceso. Siendo así, esta ruta busca dar la información y el acompañamiento necesario, en el momento oportuno, para que los municipios puedan sortear los retos que se van presentando en las diferentes etapas. </p>'
         +'<p>Lo primero, es identificar en qué estado de avance se encuentran y hacerse las siguientes preguntas: ¿Dónde estamos parados? ¿Qué camino hemos recorrido? Y, mirar hacia adelante para entender ¿Cuánto nos falta por recorrer y qué debemos hacer para recorrerlo de la manera más adecuada? Sigan las señales, hagan los altos en el camino, estén atentos a las alertas para llegar a la meta.</p>'
         +'<p>Prendan todos los motores.  </p>'
         + '<button class="entendido">Entendido</button>';
+        //document.getElementById("image-home").style.marginTop = "90px";
 
     });
 });
@@ -99,7 +104,7 @@ $(function() {
         //notasdiv.css({"width": "25%"});
         document.getElementById("notas").style.height = "100%";
         document.getElementById("notas").style.width = "25%";
-        
+        document.getElementById("containertarjetas").style.width = "50%";
         if (clasepaso == 'paso')
         {
             console.log('esta es la clase del paso: ' + clasepaso);
@@ -271,6 +276,7 @@ $(function(){
         console.log('logro obtener el id para cargar el contenido ' + idpaso);
         document.getElementById("notas").style.height = "100%";
         document.getElementById("notas").style.width = "25%";
+        document.getElementById("containertarjetas").style.width = "50%";
         if(idpaso == 'mapa-paso-1')
         {
             $.get( "Paso1.html", function( data ) {
@@ -387,6 +393,7 @@ $(function(){
         console.log('logro obtener el id para cargar el contenido ' + idpaso);
         document.getElementById("notas").style.height = "100%";
         document.getElementById("notas").style.width = "25%";
+        
         if(idpaso == 'next-paso-2')
         {
             $.get( "Paso2.html", function( data ) {
