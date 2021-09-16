@@ -254,6 +254,11 @@ header{
   box-shadow: 3px 0px 9px 4px #BABFB5;
   margin-top: 60px;
   z-index: 20;
+
+}
+
+.ruta::-webkit-scrollbar {
+  display: none;
 }
 
 .containertarjetas{
@@ -292,6 +297,7 @@ a.ancla:visited:active{
   margin-top: 15px;
   margin-left: 40px;
   margin-right: 20px;
+  margin-bottom: 20px;
   width: 84%;
 
 }
@@ -329,9 +335,9 @@ a.ancla:visited:active{
   width: 130px;*/
   height: 15px;
   float: right;
-  margin-top: 35.62px;
+  margin-top: 35px;
   color: gray;
-  margin-right: 10px;
+  margin-right: 20px;
   font-size: 9px;
   font-family: 'Gill Sans Std Bold';
   display: flex;
@@ -389,6 +395,10 @@ a.ancla:visited:active{
   margin-left: 20px;
 }
 
+.mensaje p{
+  margin-bottom: 25px;
+}
+
 .mensaje h1{
   color: #6445E1;
   font-size: 14px;
@@ -399,7 +409,8 @@ a.ancla:visited:active{
   font-family: 'Gill Sans Std semi Bold';
   font-size: 18px;
   color: #000000;
-  margin-top: 16.478px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .convenciones{
@@ -440,7 +451,7 @@ a.ancla:visited:active{
 
 
 .tarjetas{
-  width: 95.5%;
+  width: 94.5%;
   /*border: 3px solid black;*/
   background-color: #F2EFE9;
   /*display: flex;*/
@@ -448,7 +459,7 @@ a.ancla:visited:active{
   float: left;
   margin-left: 20px;
   border-radius: 8px;
-  margin-top: 15px;
+  margin-top: 10px;
   height: fit-content;
   
 }
@@ -469,7 +480,7 @@ a.ancla:visited:active{
 .informacion-paso h2{
   font-family: 'Gill Sans Std Light';
   font-size: 18px;
-  margin-top: 36.393px;
+  margin-top: 35px;
   margin-bottom: 0px;
 }
 
@@ -547,7 +558,7 @@ a.ancla:visited:active{
 }
 
 .informacion-paso-h3{ 
-  margin-top: 25px;
+  margin-top: 30px;
   font-family: 'Gill Sans Std semi Bold';
   font-size: 14px;
   color: #000000;
@@ -582,7 +593,7 @@ a.ancla:visited:active{
   width: 100%;
   padding: 0;
   margin-left: 0px;
-  margin-bottom: 24.341px;
+  margin-bottom: 25px;
   border-color: lightgray;
   opacity: 99%;
 }
@@ -593,7 +604,7 @@ a.ancla:visited:active{
   width: 100%;
   padding: 0;
   margin-left: 0px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   border-color: lightgray;
   opacity: 99%;
 }
@@ -604,7 +615,7 @@ a.ancla:visited:active{
   width: 94%;
   padding: 0;
   margin-left: 20px;
-  margin-bottom: 24.341px;
+  margin-bottom: 25px;
   border-color: lightgray;
   opacity: 99%;
 }
@@ -634,7 +645,7 @@ a.ancla:visited:active{
   font-size: 14px;
   color: #000000;
   font-style: italic;
-  margin: 15px 0px 15px;
+  margin: 25px 0px 15px;
 }
 
 .container2{
@@ -811,6 +822,7 @@ a.ancla:visited:active{
   color: #5045B3;
   margin-left: 20px;
   margin-top: 20px;
+  margin-bottom: 0px;
   display: inline-block;
 }
 
@@ -821,6 +833,7 @@ a.ancla:visited:active{
   margin-left: 0px;
   margin-top: 20px;
   display: inline-block;
+  margin-bottom: 0px;
 }
 
 .h4adminalone{
@@ -829,6 +842,7 @@ a.ancla:visited:active{
   color: red;
   margin-left: 20px;
   margin-top: 20px;
+  margin-bottom: 0px;
   display: inline-block;
 }
 
@@ -846,20 +860,20 @@ a.ancla:visited:active{
 
 .imgtecnico{
   float: right;
-  margin-top: 20px;
-  margin-right: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .imgadmin{
   float: right;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-right: 5px;
 }
 
 .imgadminalone{
   float: left;
-  margin-top: 20px;
-  margin-right: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .tooltiptarjeta {
@@ -926,6 +940,7 @@ a.ancla:visited:active{
   color: #3595E0;
   font-size: 30px;
   margin-top: 10px;
+  margin-bottom: 0px;
   /*margin-left: 20px;*/
 }
 
@@ -937,6 +952,7 @@ a.ancla:visited:active{
   width: 87%;
   padding-right: 0px;
   margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 .tarjeta h2{
@@ -945,6 +961,14 @@ a.ancla:visited:active{
   font-size: 14px;
   margin-left: 20px;
   margin-bottom: 15px;
+}
+
+.normatividad-h2{
+  margin-top: 25px;
+}
+
+.list-normas{
+  margin-bottom: 20px;
 }
 
 .tarjeta ul li{
@@ -973,7 +997,7 @@ a.ancla:visited:active{
   width: 87%;
   padding: 0px;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   border-color: lightgray;
   opacity: 99%;
 }
@@ -984,7 +1008,7 @@ a.ancla:visited:active{
   width: 88%;
   padding: 0;
   margin-left: 20px;
-  margin-bottom: 24.341px;
+  margin-bottom: 25px;
   border-color: lightgray;
   opacity: 99%;
 }
@@ -992,10 +1016,10 @@ a.ancla:visited:active{
 .paso{
   margin-left: 30.962px;
   margin-bottom: 10px ;
-  border: 2px solid gray;
+  border: 1px solid gray;
   /*background-color: FFFFFF;*/
   width: 85%;
-  height: 49.995px;
+  height: 50px;
   text-align: left;
   line-height: 25px;
   border-radius: 5px;
@@ -1072,15 +1096,17 @@ a.ancla:visited:active{
   float: left;
   font-size: 14px;
   font-family: 'Gill Sans Std semi Bold';  
-  margin-left: 20.49px;
-  max-width: 63%;
-  margin-top: 14px;
+  margin-left: 18px;
+  /*max-width: 63%;*/
+  margin-top: 17px;
 }
 
 .img-paso{
-  margin:10px 10px auto;
+  margin:9px 9px 9px 0px;
   display:block;
   float: right;
+  height: 30px;
+  width: 30px;
   /*vertical-align: middle;*/
 }
 
@@ -1215,13 +1241,14 @@ a.ancla:visited:active{
   margin-left: 20px;
   width: 89%;
   font-family: 'Gill Sans Std Italic';
+  margin-top: 10px;
 
 }
 
 .cooperantes{
   margin-left: 20px;
   width: 100%;
-  margin-top: 78.444px;
+  margin-top: 80px;
 }
 
 .cooperantes h1{
@@ -1271,8 +1298,8 @@ a.ancla:visited:active{
   width: 1px;
   padding: 0;
   margin-left: 15px;
-  margin-top: 14.615px;
-  margin-bottom: 18.288px;
+  /*margin-top: 14.615px;
+  margin-bottom: 18.288px;*/
   border-color: lightgray;
   opacity: 99%;
   display: -webkit-inline-box;
@@ -1307,26 +1334,31 @@ a.ancla:visited:active{
   width: 125.732px;
   margin-left: 5.634px;
   padding: 0px;
-  margin-top: 4.47px;
+  margin-top: 0px;
+  vertical-align: middle;
 }
 
 .UE-img{
   width: 57.606px;
   height: 46.188px;
   margin-left: 36.7276px;
+  vertical-align: middle;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
+
 
 .igac-img{
   width: 68.749px;
   height: 35.817px;
   margin-left: 36.728px;
-  margin-top: 20.379px;
+  margin-top: 20px;
 }
 
 .creditos{
   margin-left: 20px;
   width: 100%;
-  margin-top: 59.963px;
+  margin-top: 80px;
 }
 
 .creditos h1{
@@ -1340,7 +1372,7 @@ a.ancla:visited:active{
   font-size: 13px;
   color: #000000;
   margin: 0;
-  margin-top: 22px;
+  margin-top: 20px;
   width: 89%;
 }
 
@@ -1579,10 +1611,7 @@ a.ancla:visited:active{
   float: right;
   color: #000000;
   opacity: 40%;
-  margin-bottom: 40px;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+  margin-right: 20px;
 }
 
 .recurso .entidad{
@@ -1591,7 +1620,7 @@ a.ancla:visited:active{
   color: #6445E1;
   margin-left: 40px;
   margin-bottom:0px;
-  margin-top: 0px;
+  margin-top: 10px;
   max-width: 543.787px;
   
 }
@@ -1603,7 +1632,7 @@ a.ancla:visited:active{
   margin-left: 40px;
   opacity: 0.6;
   margin-bottom:20px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 /*.section2 {
